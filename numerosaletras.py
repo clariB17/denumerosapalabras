@@ -22,7 +22,10 @@ def numero_a_letra(numero):
         contador = contador + 1
         entero = int(entero/1000)
     numero_letras = numero_letras
-
+    if numero == 0:
+        numero_a_letra = "CERO"
+        print("numero: ",numero)
+        return (numero_a_letra)
 	
     print("numero: ",numero)
     return(numero_letras)
@@ -62,7 +65,3 @@ def a_cifra(numero,sw):
         if unidad == 1:
             texto_unidad = texto_unidad[sw]
     return "%s %s %s" %(texto_centena,texto_decena,texto_unidad)
-
-
-
-
