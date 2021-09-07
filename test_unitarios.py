@@ -8,3 +8,9 @@ print(b)
 
 c = numero_a_letra(200000000) # DOSCIENTOS MILLONES
 print(c)
+
+d = numero_a_letra(0)
+print(d)
+
+e = numero_a_letra(1000000000)
+print(e)
