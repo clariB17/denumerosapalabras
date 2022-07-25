@@ -1,5 +1,3 @@
-
-
 from __future__ import (division, unicode_literals, print_function)
 import wx
 from wx.core import StaticText
